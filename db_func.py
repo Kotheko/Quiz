@@ -1,7 +1,7 @@
 import aiosqlite
 import os
 
-cwd = os.getcwd()#+"\\TBOT\\"
+cwd = os.getcwd()+"\\"#TBOT\\"
 DB_NAME = cwd+'quiz_bot.db'
 
 async def create_table():
