@@ -4,7 +4,7 @@ import db_func as db
 import main as m
 from aiogram import types
 
-cwd = os.getcwd()+"\\"#TBOT\\"
+cwd = os.getcwd()+"/"#+"\\TBOT\\"
 with open(cwd+'quiz_data.json', 'r') as file:
   quiz = json.load(file)
 quiz_data = quiz.get('quiz', [])
